@@ -14,12 +14,13 @@ body {
     flex: 1;
     flex-direction: row;
     justify-content: space-between;
+    padding: 64px;
 }
 
 ul {
     list-style-type: none;
     padding: 0;
-    margin: 16px;
+    margin: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,42 +33,126 @@ li {
 .header img {
     width: 150px;
     height: 100px;
-    margin: 16px;
 }
 
 .hero {
     display: flex;
     flex: 1;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 48px;
 }
 
 .blurb {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-betwfeen;
     align-content: center;
     margin: 16px;
+    flex: 0 1 auto;
 }
 
 .blurb h1 {
     display: flex;
-    justify-content: center;
-    text-wrap: wrap;
+    justify-content: flex-start;
+    font-size: 48px;
+    font-weight: 900;
 }
 
 .blurb p {
+    display: flex;
+    align-items: center;
     color: #e5e7eb;
+    font-size: 18px;
 }
 
 .hero img {
-    width: 300px;
-    height: 200px;
-    margin: 16px;
+    display: flex;
+    align-content: center;
+    width: 450px;
+    height: 250px;
+    padding: 16px;
 }
 
 .header, .hero {
     font-family: "Roboto";
     color: #f9faf8;
     background-color: #1f2937;
+}
+
+.btn {
+    align-self: flex-start;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    padding: 8px 16px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+  }
+  
+.infoContent {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 52px;
+}
+
+.cont {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+width: 200px;
+margin: 0 48px;
+vertical-align: top;
+}
+
+.infotext {
+text-align: center;
+text-wrap: wrap;
+color: #1f2937;
+font-size: 18px;
+margin: 24px;
+}
+
+.cont img {
+width: 250px;
+height: 250px;
+border-radius: 12px;
+border-style: solid;
+border-color: cornflowerblue;
+/* display: flex; */
+}
+
+.infoTitle {
+font-size: 36px;
+font-weight: 900;
+color: #1f2937;
+}
+
+.quote {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+    background-color: #e5e7eb;
+    padding: 48px 512px;
+}
+
+.quoteText {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quoteAuth {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }

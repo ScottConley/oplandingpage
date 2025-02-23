@@ -98,18 +98,15 @@ li {
 .infoContent {
 display: flex;
 justify-content: center;
-align-items: center;
 gap: 52px;
+vertical-align: top;
 }
 
 .cont {
 display: flex;
-justify-content: center;
-align-items: center;
 flex-direction: column;
 width: 200px;
 margin: 0 48px;
-vertical-align: top;
 }
 
 .infotext {
@@ -126,6 +123,7 @@ height: 250px;
 border-radius: 12px;
 border-style: solid;
 border-color: cornflowerblue;
+vertical-align: top;
 /* display: flex; */
 }
 

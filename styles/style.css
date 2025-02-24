@@ -7,6 +7,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     flex: 1;
+    background-color: #121212;
 }
 
 .header {
@@ -105,16 +106,18 @@ vertical-align: top;
 .cont {
 display: flex;
 flex-direction: column;
-width: 200px;
+width: 256px;
 margin: 0 48px;
 }
 
 .infotext {
-text-align: center;
-text-wrap: wrap;
-color: #1f2937;
-font-size: 18px;
-margin: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-wrap: wrap;
+    color: #3882f6;
+    font-size: 18px;
+    margin: 24px;
 }
 
 .cont img {
@@ -130,7 +133,7 @@ vertical-align: top;
 .infoTitle {
 font-size: 36px;
 font-weight: 900;
-color: #1f2937;
+color: #3882f6;
 }
 
 .quote {

@@ -31,6 +31,11 @@ li {
     margin: 16px;
 }
 
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
 .header img {
     width: 150px;
     height: 100px;

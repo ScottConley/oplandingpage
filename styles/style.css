@@ -192,3 +192,10 @@ color: #3882f6;
     border-radius: 8px;
     border-color: #e5e7eb;
 }
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-around;
+}
